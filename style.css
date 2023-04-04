@@ -1,0 +1,96 @@
+
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  @media (max-width:200px) {
+  /*Pour smartphone*/
+  }
+    .container{
+      width: 200px;
+  }
+
+  @media (max-width:960px) {
+  /*Pour tablette*/
+  }
+    .container{
+      width: 500px;
+  }
+
+
+
+
+
+  #Titre{
+    font-size: 45px;
+    font-weight: 150;
+  }
+  .card {
+    background-color: white;
+    font-weight: 150;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  h2 {
+    color:#A084DC;
+    margin-top: 0;
+  }
+
+  h1 {
+    color: #645CBB;
+    font-weight: 150;
+    margin-top: 0 ;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: #7286D3;
+  }
+
+body {
+  background-image: url("fondsimple1.png");
+  font-family: 'Fira Sans', sans-serif;
+  background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+}
+
+  p {
+    margin: 0;
+  }
+
+  img {
+    width: 200px;
+    border-radius: 12px;
+  }
+
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #f {
+    margin-bottom: 15px;
+  }
+
+  /*petite devinette: Pet et Répète sont dans un bateau. Pet tombe à l'eau, qui reste il ?*/
+
+.slider {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slide {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
